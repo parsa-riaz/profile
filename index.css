@@ -76,6 +76,14 @@ span[role="button"] {
   color: white;
   font-weight: bold;
 }
+
+@media (max-width: 400px) {
+  .content-details {
+    position: absolute;
+    top: 85%;
+  }
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 760px) {
   .profilebackground {
