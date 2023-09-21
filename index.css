@@ -78,6 +78,9 @@ span[role="button"] {
 }
 
 @media (max-width: 400px) {
+  .fonthead {
+    font-size: 2rem;
+  }
   .content-details {
     position: absolute;
     top: 85%;
@@ -318,7 +321,7 @@ span[role="button"] {
   }
 
   .card-text {
-    width: 75%;
+    width: 65%;
     text-wrap: wrap;
     margin: 8% 0 8% 0;
     font-size: 1.3rem;
@@ -342,6 +345,12 @@ span[role="button"] {
   .profilebackground {
     background-color: #979797;
     background: linear-gradient(#242424 0.01%, #242424 100%);
+  }
+  .card-text {
+    width: 65%;
+    text-wrap: wrap;
+    margin: 8% 0 8% 0;
+    font-size: 1.3rem;
   }
 
   .oval-position {
